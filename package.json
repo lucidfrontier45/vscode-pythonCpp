@@ -3,7 +3,7 @@
   "displayName": "Python C++ Debugger",
   "version": "0.3.0",
   "publisher": "lucidfrontier45",
-  "description": "Extension for starting the Python & C++ debugger on the same process in VScode",
+  "description": "Extension for starting the Python & C++ debugger on the same process in VScode forked from `benjamin-simmonds.pythoncpp-debug`",
   "author": {
     "name": "Du Shiqiao",
     "email": "lucidfrontier.45@gmail.com"
