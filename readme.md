@@ -8,7 +8,7 @@ This debugger starts a python debugger and attaches a C++ debugger to it for deb
 
 To use this debug-extension you must have the following extensions installed:
 * Python by Microsoft (ms-python.python)
-* C/C++ by Microsoft (ms-vscode.cpptools)
+* C/C++ by Microsoft (ms-vscode.cpptools) or CodeLLDB (vadimcn.vscode-lldb)
 
 
 ## Default Configurations:
@@ -80,3 +80,4 @@ When you start Python C++ Debug it launches a Python debugger and attaches a C++
 * Make sure the shared object files (.so/.dll) you are loading your functions from have been compiled with `debug info`.
 * Between consecutive `breakpoints` where one is located in python and the other in the C++ code, only the 'continue' button will work correctly.
 * Additionally, the `restart button` isn't supported due to the Python debugger changing its processId after a restart. 
+* If you want to use it with `vadimcn.vscode-lldb`, create an attach profile and leave `pid` property empty.

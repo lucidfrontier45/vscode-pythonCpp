@@ -1,12 +1,12 @@
 {
-  "name": "pythoncpp-debug",
+  "name": "pythoncpp-debug-more",
   "displayName": "Python C++ Debugger",
-  "version": "0.2.15",
-  "publisher": "benjamin-simmonds",
+  "version": "0.3.0",
+  "publisher": "lucidfrontier45",
   "description": "Extension for starting the Python & C++ debugger on the same process in VScode",
   "author": {
-    "name": "Benjamin Simmonds",
-    "email": "Benjaminsimmonds@outlook.com"
+    "name": "Du Shiqiao",
+    "email": "lucidfrontier.45@gmail.com"
   },
   "license": "MIT",
   "keywords": [

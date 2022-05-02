@@ -1,3 +1,7 @@
+## 0.3.0
+* Forked from `benjamin-simmonds.pythoncpp-debug`
+* Added `vadimcn.vscode-lldb` support
+
 ## 0.2.11 - 0.2.15
 * Minor changes and bug fixes
 
